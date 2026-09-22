@@ -56,6 +56,8 @@ markdown_extensions:
 
 docs_dir: docs
 site_dir: site
+extra_css:
+  - stylesheets/extra.css
 
 plugins:
   - search
@@ -66,18 +68,336 @@ plugins:
 nav:
   - Home: index.md
   - Teacher Exams:
+    # TEACHER_NAV_START
     - TGT:
-      - Introduction: up-tgt/introduction.md
-      - Eligibility: up-tgt/eligibility.md
-      - Exam Pattern: up-tgt/exam-pattern.md
-      - Preparation Strategy: up-tgt/preparation-strategy.md
+      - Overview: teacher-exams/tgt/index.md
+      - UP TGT:
+        - Overview: teacher-exams/tgt/up-tgt/index.md
+        - Hindi:
+          - Notes: teacher-exams/tgt/up-tgt/hindi/notes.md
+          - MCQ Test: teacher-exams/tgt/up-tgt/hindi/mcq-test.md
+        - Sanskrit:
+          - Notes: teacher-exams/tgt/up-tgt/sanskrit/notes.md
+          - MCQ Test: teacher-exams/tgt/up-tgt/sanskrit/mcq-test.md
+        - English:
+          - Notes: teacher-exams/tgt/up-tgt/english/notes.md
+          - MCQ Test: teacher-exams/tgt/up-tgt/english/mcq-test.md
+        - Mathematics:
+          - Notes: teacher-exams/tgt/up-tgt/mathematics/notes.md
+          - MCQ Test: teacher-exams/tgt/up-tgt/mathematics/mcq-test.md
+        - Science:
+          - Notes: teacher-exams/tgt/up-tgt/science/notes.md
+          - MCQ Test: teacher-exams/tgt/up-tgt/science/mcq-test.md
+        - Social Science:
+          - Notes: teacher-exams/tgt/up-tgt/social-science/notes.md
+          - MCQ Test: teacher-exams/tgt/up-tgt/social-science/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/tgt/up-tgt/gk-gs/notes.md
+          - MCQ Test: teacher-exams/tgt/up-tgt/gk-gs/mcq-test.md
+      - Delhi TGT:
+        - Overview: teacher-exams/tgt/delhi-tgt/index.md
+        - Hindi:
+          - Notes: teacher-exams/tgt/delhi-tgt/hindi/notes.md
+          - MCQ Test: teacher-exams/tgt/delhi-tgt/hindi/mcq-test.md
+        - Sanskrit:
+          - Notes: teacher-exams/tgt/delhi-tgt/sanskrit/notes.md
+          - MCQ Test: teacher-exams/tgt/delhi-tgt/sanskrit/mcq-test.md
+        - English:
+          - Notes: teacher-exams/tgt/delhi-tgt/english/notes.md
+          - MCQ Test: teacher-exams/tgt/delhi-tgt/english/mcq-test.md
+        - Mathematics:
+          - Notes: teacher-exams/tgt/delhi-tgt/mathematics/notes.md
+          - MCQ Test: teacher-exams/tgt/delhi-tgt/mathematics/mcq-test.md
+        - Science:
+          - Notes: teacher-exams/tgt/delhi-tgt/science/notes.md
+          - MCQ Test: teacher-exams/tgt/delhi-tgt/science/mcq-test.md
+        - Social Science:
+          - Notes: teacher-exams/tgt/delhi-tgt/social-science/notes.md
+          - MCQ Test: teacher-exams/tgt/delhi-tgt/social-science/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/tgt/delhi-tgt/gk-gs/notes.md
+          - MCQ Test: teacher-exams/tgt/delhi-tgt/gk-gs/mcq-test.md
+      - Haryana TGT:
+        - Overview: teacher-exams/tgt/haryana-tgt/index.md
+        - Hindi:
+          - Notes: teacher-exams/tgt/haryana-tgt/hindi/notes.md
+          - MCQ Test: teacher-exams/tgt/haryana-tgt/hindi/mcq-test.md
+        - Sanskrit:
+          - Notes: teacher-exams/tgt/haryana-tgt/sanskrit/notes.md
+          - MCQ Test: teacher-exams/tgt/haryana-tgt/sanskrit/mcq-test.md
+        - English:
+          - Notes: teacher-exams/tgt/haryana-tgt/english/notes.md
+          - MCQ Test: teacher-exams/tgt/haryana-tgt/english/mcq-test.md
+        - Mathematics:
+          - Notes: teacher-exams/tgt/haryana-tgt/mathematics/notes.md
+          - MCQ Test: teacher-exams/tgt/haryana-tgt/mathematics/mcq-test.md
+        - Science:
+          - Notes: teacher-exams/tgt/haryana-tgt/science/notes.md
+          - MCQ Test: teacher-exams/tgt/haryana-tgt/science/mcq-test.md
+        - Social Science:
+          - Notes: teacher-exams/tgt/haryana-tgt/social-science/notes.md
+          - MCQ Test: teacher-exams/tgt/haryana-tgt/social-science/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/tgt/haryana-tgt/gk-gs/notes.md
+          - MCQ Test: teacher-exams/tgt/haryana-tgt/gk-gs/mcq-test.md
+      - Rajasthan TGT:
+        - Overview: teacher-exams/tgt/rajasthan-tgt/index.md
+        - Hindi:
+          - Notes: teacher-exams/tgt/rajasthan-tgt/hindi/notes.md
+          - MCQ Test: teacher-exams/tgt/rajasthan-tgt/hindi/mcq-test.md
+        - Sanskrit:
+          - Notes: teacher-exams/tgt/rajasthan-tgt/sanskrit/notes.md
+          - MCQ Test: teacher-exams/tgt/rajasthan-tgt/sanskrit/mcq-test.md
+        - English:
+          - Notes: teacher-exams/tgt/rajasthan-tgt/english/notes.md
+          - MCQ Test: teacher-exams/tgt/rajasthan-tgt/english/mcq-test.md
+        - Mathematics:
+          - Notes: teacher-exams/tgt/rajasthan-tgt/mathematics/notes.md
+          - MCQ Test: teacher-exams/tgt/rajasthan-tgt/mathematics/mcq-test.md
+        - Science:
+          - Notes: teacher-exams/tgt/rajasthan-tgt/science/notes.md
+          - MCQ Test: teacher-exams/tgt/rajasthan-tgt/science/mcq-test.md
+        - Social Science:
+          - Notes: teacher-exams/tgt/rajasthan-tgt/social-science/notes.md
+          - MCQ Test: teacher-exams/tgt/rajasthan-tgt/social-science/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/tgt/rajasthan-tgt/gk-gs/notes.md
+          - MCQ Test: teacher-exams/tgt/rajasthan-tgt/gk-gs/mcq-test.md
     - PGT:
-      - Introduction: up-pgt/introduction.md
-      - Eligibility: up-pgt/eligibility.md
-      - Exam Pattern: up-pgt/exam-pattern.md
-      - Preparation Strategy: up-pgt/preparation-strategy.md
-    - Primary Teacher: teacher-exams/primary-teacher.md
-    - Junior Teacher: teacher-exams/junior-teacher.md
+      - Overview: teacher-exams/pgt/index.md
+      - UP PGT:
+        - Overview: teacher-exams/pgt/up-pgt/index.md
+        - Hindi:
+          - Notes: teacher-exams/pgt/up-pgt/hindi/notes.md
+          - MCQ Test: teacher-exams/pgt/up-pgt/hindi/mcq-test.md
+        - Sanskrit:
+          - Notes: teacher-exams/pgt/up-pgt/sanskrit/notes.md
+          - MCQ Test: teacher-exams/pgt/up-pgt/sanskrit/mcq-test.md
+        - English:
+          - Notes: teacher-exams/pgt/up-pgt/english/notes.md
+          - MCQ Test: teacher-exams/pgt/up-pgt/english/mcq-test.md
+        - Mathematics:
+          - Notes: teacher-exams/pgt/up-pgt/mathematics/notes.md
+          - MCQ Test: teacher-exams/pgt/up-pgt/mathematics/mcq-test.md
+        - Physics:
+          - Notes: teacher-exams/pgt/up-pgt/physics/notes.md
+          - MCQ Test: teacher-exams/pgt/up-pgt/physics/mcq-test.md
+        - Chemistry:
+          - Notes: teacher-exams/pgt/up-pgt/chemistry/notes.md
+          - MCQ Test: teacher-exams/pgt/up-pgt/chemistry/mcq-test.md
+        - Biology:
+          - Notes: teacher-exams/pgt/up-pgt/biology/notes.md
+          - MCQ Test: teacher-exams/pgt/up-pgt/biology/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/pgt/up-pgt/gk-gs/notes.md
+          - MCQ Test: teacher-exams/pgt/up-pgt/gk-gs/mcq-test.md
+      - Delhi PGT:
+        - Overview: teacher-exams/pgt/delhi-pgt/index.md
+        - Hindi:
+          - Notes: teacher-exams/pgt/delhi-pgt/hindi/notes.md
+          - MCQ Test: teacher-exams/pgt/delhi-pgt/hindi/mcq-test.md
+        - Sanskrit:
+          - Notes: teacher-exams/pgt/delhi-pgt/sanskrit/notes.md
+          - MCQ Test: teacher-exams/pgt/delhi-pgt/sanskrit/mcq-test.md
+        - English:
+          - Notes: teacher-exams/pgt/delhi-pgt/english/notes.md
+          - MCQ Test: teacher-exams/pgt/delhi-pgt/english/mcq-test.md
+        - Mathematics:
+          - Notes: teacher-exams/pgt/delhi-pgt/mathematics/notes.md
+          - MCQ Test: teacher-exams/pgt/delhi-pgt/mathematics/mcq-test.md
+        - Physics:
+          - Notes: teacher-exams/pgt/delhi-pgt/physics/notes.md
+          - MCQ Test: teacher-exams/pgt/delhi-pgt/physics/mcq-test.md
+        - Chemistry:
+          - Notes: teacher-exams/pgt/delhi-pgt/chemistry/notes.md
+          - MCQ Test: teacher-exams/pgt/delhi-pgt/chemistry/mcq-test.md
+        - Biology:
+          - Notes: teacher-exams/pgt/delhi-pgt/biology/notes.md
+          - MCQ Test: teacher-exams/pgt/delhi-pgt/biology/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/pgt/delhi-pgt/gk-gs/notes.md
+          - MCQ Test: teacher-exams/pgt/delhi-pgt/gk-gs/mcq-test.md
+      - Haryana PGT:
+        - Overview: teacher-exams/pgt/haryana-pgt/index.md
+        - Hindi:
+          - Notes: teacher-exams/pgt/haryana-pgt/hindi/notes.md
+          - MCQ Test: teacher-exams/pgt/haryana-pgt/hindi/mcq-test.md
+        - Sanskrit:
+          - Notes: teacher-exams/pgt/haryana-pgt/sanskrit/notes.md
+          - MCQ Test: teacher-exams/pgt/haryana-pgt/sanskrit/mcq-test.md
+        - English:
+          - Notes: teacher-exams/pgt/haryana-pgt/english/notes.md
+          - MCQ Test: teacher-exams/pgt/haryana-pgt/english/mcq-test.md
+        - Mathematics:
+          - Notes: teacher-exams/pgt/haryana-pgt/mathematics/notes.md
+          - MCQ Test: teacher-exams/pgt/haryana-pgt/mathematics/mcq-test.md
+        - Physics:
+          - Notes: teacher-exams/pgt/haryana-pgt/physics/notes.md
+          - MCQ Test: teacher-exams/pgt/haryana-pgt/physics/mcq-test.md
+        - Chemistry:
+          - Notes: teacher-exams/pgt/haryana-pgt/chemistry/notes.md
+          - MCQ Test: teacher-exams/pgt/haryana-pgt/chemistry/mcq-test.md
+        - Biology:
+          - Notes: teacher-exams/pgt/haryana-pgt/biology/notes.md
+          - MCQ Test: teacher-exams/pgt/haryana-pgt/biology/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/pgt/haryana-pgt/gk-gs/notes.md
+          - MCQ Test: teacher-exams/pgt/haryana-pgt/gk-gs/mcq-test.md
+      - Rajasthan PGT:
+        - Overview: teacher-exams/pgt/rajasthan-pgt/index.md
+        - Hindi:
+          - Notes: teacher-exams/pgt/rajasthan-pgt/hindi/notes.md
+          - MCQ Test: teacher-exams/pgt/rajasthan-pgt/hindi/mcq-test.md
+        - Sanskrit:
+          - Notes: teacher-exams/pgt/rajasthan-pgt/sanskrit/notes.md
+          - MCQ Test: teacher-exams/pgt/rajasthan-pgt/sanskrit/mcq-test.md
+        - English:
+          - Notes: teacher-exams/pgt/rajasthan-pgt/english/notes.md
+          - MCQ Test: teacher-exams/pgt/rajasthan-pgt/english/mcq-test.md
+        - Mathematics:
+          - Notes: teacher-exams/pgt/rajasthan-pgt/mathematics/notes.md
+          - MCQ Test: teacher-exams/pgt/rajasthan-pgt/mathematics/mcq-test.md
+        - Physics:
+          - Notes: teacher-exams/pgt/rajasthan-pgt/physics/notes.md
+          - MCQ Test: teacher-exams/pgt/rajasthan-pgt/physics/mcq-test.md
+        - Chemistry:
+          - Notes: teacher-exams/pgt/rajasthan-pgt/chemistry/notes.md
+          - MCQ Test: teacher-exams/pgt/rajasthan-pgt/chemistry/mcq-test.md
+        - Biology:
+          - Notes: teacher-exams/pgt/rajasthan-pgt/biology/notes.md
+          - MCQ Test: teacher-exams/pgt/rajasthan-pgt/biology/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/pgt/rajasthan-pgt/gk-gs/notes.md
+          - MCQ Test: teacher-exams/pgt/rajasthan-pgt/gk-gs/mcq-test.md
+    - Primary Teacher:
+      - Overview: teacher-exams/primary-teacher/index.md
+      - UP Primary:
+        - Overview: teacher-exams/primary-teacher/up-primary/index.md
+        - Core Subjects:
+          - Notes: teacher-exams/primary-teacher/up-primary/core-subjects/notes.md
+          - MCQ Test: teacher-exams/primary-teacher/up-primary/core-subjects/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/primary-teacher/up-primary/gk-gs/notes.md
+          - MCQ Test: teacher-exams/primary-teacher/up-primary/gk-gs/mcq-test.md
+      - Delhi Primary:
+        - Overview: teacher-exams/primary-teacher/delhi-primary/index.md
+        - Core Subjects:
+          - Notes: teacher-exams/primary-teacher/delhi-primary/core-subjects/notes.md
+          - MCQ Test: teacher-exams/primary-teacher/delhi-primary/core-subjects/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/primary-teacher/delhi-primary/gk-gs/notes.md
+          - MCQ Test: teacher-exams/primary-teacher/delhi-primary/gk-gs/mcq-test.md
+      - Haryana Primary:
+        - Overview: teacher-exams/primary-teacher/haryana-primary/index.md
+        - Core Subjects:
+          - Notes: teacher-exams/primary-teacher/haryana-primary/core-subjects/notes.md
+          - MCQ Test: teacher-exams/primary-teacher/haryana-primary/core-subjects/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/primary-teacher/haryana-primary/gk-gs/notes.md
+          - MCQ Test: teacher-exams/primary-teacher/haryana-primary/gk-gs/mcq-test.md
+      - Rajasthan Primary:
+        - Overview: teacher-exams/primary-teacher/rajasthan-primary/index.md
+        - Core Subjects:
+          - Notes: teacher-exams/primary-teacher/rajasthan-primary/core-subjects/notes.md
+          - MCQ Test: teacher-exams/primary-teacher/rajasthan-primary/core-subjects/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/primary-teacher/rajasthan-primary/gk-gs/notes.md
+          - MCQ Test: teacher-exams/primary-teacher/rajasthan-primary/gk-gs/mcq-test.md
+    - Junior Teacher:
+      - Overview: teacher-exams/junior-teacher/index.md
+      - UP Junior Teacher:
+        - Overview: teacher-exams/junior-teacher/up-junior-teacher/index.md
+        - Hindi:
+          - Notes: teacher-exams/junior-teacher/up-junior-teacher/hindi/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/up-junior-teacher/hindi/mcq-test.md
+        - Sanskrit:
+          - Notes: teacher-exams/junior-teacher/up-junior-teacher/sanskrit/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/up-junior-teacher/sanskrit/mcq-test.md
+        - English:
+          - Notes: teacher-exams/junior-teacher/up-junior-teacher/english/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/up-junior-teacher/english/mcq-test.md
+        - Mathematics:
+          - Notes: teacher-exams/junior-teacher/up-junior-teacher/mathematics/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/up-junior-teacher/mathematics/mcq-test.md
+        - Science:
+          - Notes: teacher-exams/junior-teacher/up-junior-teacher/science/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/up-junior-teacher/science/mcq-test.md
+        - Social Science:
+          - Notes: teacher-exams/junior-teacher/up-junior-teacher/social-science/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/up-junior-teacher/social-science/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/junior-teacher/up-junior-teacher/gk-gs/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/up-junior-teacher/gk-gs/mcq-test.md
+      - Delhi Junior Teacher:
+        - Overview: teacher-exams/junior-teacher/delhi-junior-teacher/index.md
+        - Hindi:
+          - Notes: teacher-exams/junior-teacher/delhi-junior-teacher/hindi/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/delhi-junior-teacher/hindi/mcq-test.md
+        - Sanskrit:
+          - Notes: teacher-exams/junior-teacher/delhi-junior-teacher/sanskrit/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/delhi-junior-teacher/sanskrit/mcq-test.md
+        - English:
+          - Notes: teacher-exams/junior-teacher/delhi-junior-teacher/english/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/delhi-junior-teacher/english/mcq-test.md
+        - Mathematics:
+          - Notes: teacher-exams/junior-teacher/delhi-junior-teacher/mathematics/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/delhi-junior-teacher/mathematics/mcq-test.md
+        - Science:
+          - Notes: teacher-exams/junior-teacher/delhi-junior-teacher/science/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/delhi-junior-teacher/science/mcq-test.md
+        - Social Science:
+          - Notes: teacher-exams/junior-teacher/delhi-junior-teacher/social-science/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/delhi-junior-teacher/social-science/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/junior-teacher/delhi-junior-teacher/gk-gs/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/delhi-junior-teacher/gk-gs/mcq-test.md
+      - Haryana Junior Teacher:
+        - Overview: teacher-exams/junior-teacher/haryana-junior-teacher/index.md
+        - Hindi:
+          - Notes: teacher-exams/junior-teacher/haryana-junior-teacher/hindi/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/haryana-junior-teacher/hindi/mcq-test.md
+        - Sanskrit:
+          - Notes: teacher-exams/junior-teacher/haryana-junior-teacher/sanskrit/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/haryana-junior-teacher/sanskrit/mcq-test.md
+        - English:
+          - Notes: teacher-exams/junior-teacher/haryana-junior-teacher/english/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/haryana-junior-teacher/english/mcq-test.md
+        - Mathematics:
+          - Notes: teacher-exams/junior-teacher/haryana-junior-teacher/mathematics/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/haryana-junior-teacher/mathematics/mcq-test.md
+        - Science:
+          - Notes: teacher-exams/junior-teacher/haryana-junior-teacher/science/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/haryana-junior-teacher/science/mcq-test.md
+        - Social Science:
+          - Notes: teacher-exams/junior-teacher/haryana-junior-teacher/social-science/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/haryana-junior-teacher/social-science/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/junior-teacher/haryana-junior-teacher/gk-gs/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/haryana-junior-teacher/gk-gs/mcq-test.md
+      - Rajasthan Junior Teacher:
+        - Overview: teacher-exams/junior-teacher/rajasthan-junior-teacher/index.md
+        - Hindi:
+          - Notes: teacher-exams/junior-teacher/rajasthan-junior-teacher/hindi/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/rajasthan-junior-teacher/hindi/mcq-test.md
+        - Sanskrit:
+          - Notes: teacher-exams/junior-teacher/rajasthan-junior-teacher/sanskrit/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/rajasthan-junior-teacher/sanskrit/mcq-test.md
+        - English:
+          - Notes: teacher-exams/junior-teacher/rajasthan-junior-teacher/english/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/rajasthan-junior-teacher/english/mcq-test.md
+        - Mathematics:
+          - Notes: teacher-exams/junior-teacher/rajasthan-junior-teacher/mathematics/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/rajasthan-junior-teacher/mathematics/mcq-test.md
+        - Science:
+          - Notes: teacher-exams/junior-teacher/rajasthan-junior-teacher/science/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/rajasthan-junior-teacher/science/mcq-test.md
+        - Social Science:
+          - Notes: teacher-exams/junior-teacher/rajasthan-junior-teacher/social-science/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/rajasthan-junior-teacher/social-science/mcq-test.md
+        - GK/GS:
+          - Notes: teacher-exams/junior-teacher/rajasthan-junior-teacher/gk-gs/notes.md
+          - MCQ Test: teacher-exams/junior-teacher/rajasthan-junior-teacher/gk-gs/mcq-test.md
+        # TEACHER_NAV_END
     - Principal: teacher-exams/principal.md
   - Police Exams:
     - Home Guard: police-exams/home-guard.md
@@ -140,6 +460,17 @@ nav:
         - Admit Card: job-updates/admit-card.md
         - Answer Key: job-updates/answer-key.md
         - Results: job-updates/result.md
+        - Legacy Exam Guides:
+          - TGT Introduction: up-tgt/introduction.md
+          - TGT Eligibility: up-tgt/eligibility.md
+          - TGT Exam Pattern: up-tgt/exam-pattern.md
+          - TGT Preparation Strategy: up-tgt/preparation-strategy.md
+          - PGT Introduction: up-pgt/introduction.md
+          - PGT Eligibility: up-pgt/eligibility.md
+          - PGT Exam Pattern: up-pgt/exam-pattern.md
+          - PGT Preparation Strategy: up-pgt/preparation-strategy.md
+          - Primary Teacher Guide: teacher-exams/primary-teacher.md
+          - Junior Teacher Guide: teacher-exams/junior-teacher.md
 
 extra:
   generator: false

@@ -36,6 +36,8 @@ jobs:
           python-version: "3.x"
       - name: Install MkDocs dependencies
         run: pip install -r requirements.txt
+      - name: Generate teacher exam navigation
+        run: python scripts/generate_teacher_pages.py
       - name: Build MkDocs site
         run: mkdocs build --strict
       - name: Upload site artifact
