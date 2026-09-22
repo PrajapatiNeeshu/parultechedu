@@ -1,8 +1,8 @@
 site_name: UP TGT PGT Study Portal
 site_description: A practical content hub for UP TGT and UP PGT exam preparation.
-site_url: https://YOUR_USERNAME.github.io/up-tgt-pgt-portal/
-repo_name: up-tgt-pgt-portal
-repo_url: https://github.com/YOUR_USERNAME/up-tgt-pgt-portal
+site_url: https://dwivedisaurabh4.github.io/eduTech/
+repo_name: dwivedisaurabh4/eduTech
+repo_url: https://github.com/dwivedisaurabh4/eduTech
 edit_uri: edit/main/docs/
 
 theme:
@@ -122,4 +122,4 @@ extra:
   generator: false
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/YOUR_USERNAME/up-tgt-pgt-portal
+      link: https://github.com/dwivedisaurabh4/eduTech
