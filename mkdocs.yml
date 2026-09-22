@@ -1,0 +1,125 @@
+site_name: UP TGT PGT Study Portal
+site_description: A practical content hub for UP TGT and UP PGT exam preparation.
+site_url: https://YOUR_USERNAME.github.io/up-tgt-pgt-portal/
+repo_name: up-tgt-pgt-portal
+repo_url: https://github.com/YOUR_USERNAME/up-tgt-pgt-portal
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: en
+  features:
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+      primary: indigo
+      accent: amber
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to light mode
+      primary: blue
+      accent: amber
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - pymdownx.details
+  - pymdownx.emoji
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.smartsymbols
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist
+  - pymdownx.tilde
+
+docs_dir: docs
+site_dir: site
+
+plugins:
+  - search
+  - awesome-pages
+  - minify:
+      minify_html: true
+
+nav:
+  - Home: index.md
+  - UP-TGT:
+      - Introduction: up-tgt/introduction.md
+      - Eligibility: up-tgt/eligibility.md
+      - Exam Pattern: up-tgt/exam-pattern.md
+      - Preparation Strategy: up-tgt/preparation-strategy.md
+  - UP-PGT:
+      - Introduction: up-pgt/introduction.md
+      - Eligibility: up-pgt/eligibility.md
+      - Exam Pattern: up-pgt/exam-pattern.md
+      - Preparation Strategy: up-pgt/preparation-strategy.md
+  - Syllabus:
+      - Overview: syllabus/index.md
+      - UP-TGT Syllabus: syllabus/up-tgt-syllabus.md
+      - UP-PGT Syllabus: syllabus/up-pgt-syllabus.md
+      - Chemistry: syllabus/chemistry.md
+      - Physics: syllabus/physics.md
+      - Biology: syllabus/biology.md
+      - Hindi: syllabus/hindi.md
+      - English: syllabus/english.md
+      - General Studies: syllabus/general-studies.md
+  - Notes:
+      - Overview: notes/index.md
+      - Chemistry: notes/chemistry/chapter-01.md
+      - Physics: notes/physics/chapter-01.md
+      - Biology: notes/biology/chapter-01.md
+      - Hindi: notes/hindi/chapter-01.md
+      - English: notes/english/chapter-01.md
+      - General Studies: notes/gs/chapter-01.md
+  - MCQs:
+      - Overview: mcq/index.md
+      - Chemistry: mcq/chemistry-mcq.md
+      - Physics: mcq/physics-mcq.md
+      - Biology: mcq/biology-mcq.md
+      - Hindi: mcq/hindi-mcq.md
+      - English: mcq/english-mcq.md
+      - General Studies: mcq/gs-mcq.md
+  - Job Updates:
+      - Latest Vacancy: job-updates/latest-vacancy.md
+      - Admit Card: job-updates/admit-card.md
+      - Answer Key: job-updates/answer-key.md
+      - Results: job-updates/result.md
+  - Online Tests:
+      - Test Hub: online-tests/index.md
+      - Chemistry: online-tests/chemistry-test-links.md
+      - Physics: online-tests/physics-test-links.md
+      - Biology: online-tests/biology-test-links.md
+      - Mock Tests: online-tests/mock-tests.md
+  - Resources:
+      - Books: resources/books.md
+      - YouTube Channels: resources/youtube-channels.md
+      - Websites: resources/websites.md
+      - Previous Papers: resources/previous-papers.md
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/YOUR_USERNAME/up-tgt-pgt-portal

@@ -1,0 +1,12 @@
+# Python environments
+venv/
+.venv/
+__pycache__/
+
+# MkDocs output
+site/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
