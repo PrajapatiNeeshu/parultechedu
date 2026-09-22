@@ -1,5 +1,5 @@
-site_name: UP TGT PGT Study Portal
-site_description: A practical content hub for UP TGT and UP PGT exam preparation.
+site_name: EduTech Exam Preparation Portal
+site_description: Exam preparation, study material, mock tests, current affairs, and interview guidance.
 site_url: https://dwivedisaurabh4.github.io/eduTech/
 repo_name: dwivedisaurabh4/eduTech
 repo_url: https://github.com/dwivedisaurabh4/eduTech
@@ -65,58 +65,81 @@ plugins:
 
 nav:
   - Home: index.md
-  - UP-TGT:
+  - Teacher Exams:
+    - TGT:
       - Introduction: up-tgt/introduction.md
       - Eligibility: up-tgt/eligibility.md
       - Exam Pattern: up-tgt/exam-pattern.md
       - Preparation Strategy: up-tgt/preparation-strategy.md
-  - UP-PGT:
+    - PGT:
       - Introduction: up-pgt/introduction.md
       - Eligibility: up-pgt/eligibility.md
       - Exam Pattern: up-pgt/exam-pattern.md
       - Preparation Strategy: up-pgt/preparation-strategy.md
-  - Syllabus:
-      - Overview: syllabus/index.md
-      - UP-TGT Syllabus: syllabus/up-tgt-syllabus.md
-      - UP-PGT Syllabus: syllabus/up-pgt-syllabus.md
-      - Chemistry: syllabus/chemistry.md
-      - Physics: syllabus/physics.md
-      - Biology: syllabus/biology.md
-      - Hindi: syllabus/hindi.md
-      - English: syllabus/english.md
-      - General Studies: syllabus/general-studies.md
-  - Notes:
-      - Overview: notes/index.md
-      - Chemistry: notes/chemistry/chapter-01.md
-      - Physics: notes/physics/chapter-01.md
-      - Biology: notes/biology/chapter-01.md
-      - Hindi: notes/hindi/chapter-01.md
-      - English: notes/english/chapter-01.md
-      - General Studies: notes/gs/chapter-01.md
-  - MCQs:
-      - Overview: mcq/index.md
-      - Chemistry: mcq/chemistry-mcq.md
-      - Physics: mcq/physics-mcq.md
-      - Biology: mcq/biology-mcq.md
-      - Hindi: mcq/hindi-mcq.md
-      - English: mcq/english-mcq.md
-      - General Studies: mcq/gs-mcq.md
-  - Job Updates:
-      - Latest Vacancy: job-updates/latest-vacancy.md
-      - Admit Card: job-updates/admit-card.md
-      - Answer Key: job-updates/answer-key.md
-      - Results: job-updates/result.md
-  - Online Tests:
-      - Test Hub: online-tests/index.md
-      - Chemistry: online-tests/chemistry-test-links.md
-      - Physics: online-tests/physics-test-links.md
-      - Biology: online-tests/biology-test-links.md
-      - Mock Tests: online-tests/mock-tests.md
-  - Resources:
+    - Primary Teacher: teacher-exams/primary-teacher.md
+    - Junior Teacher: teacher-exams/junior-teacher.md
+    - Principal: teacher-exams/principal.md
+  - Police Exams:
+    - Home Guard: police-exams/home-guard.md
+    - Sub-Inspector (SI): police-exams/sub-inspector.md
+  - SSC Exams:
+    - SSC CGL: ssc-exams/cgl.md
+    - SSC CHSL: ssc-exams/chsl.md
+    - SSC MTS: ssc-exams/mts.md
+    - Other SSC Exams: ssc-exams/other.md
+  - Railway Exams:
+    - RRB NTPC: railway-exams/ntpc.md
+    - RRB Group D: railway-exams/group-d.md
+    - RRB ALP: railway-exams/alp.md
+    - Other Railway Exams: railway-exams/other.md
+  - Interview Preparation:
+    - IT Interview: interview-preparation/it-interview.md
+    - BPO Interview: interview-preparation/bpo-interview.md
+    - HR Interview: interview-preparation/hr-interview.md
+    - Technical Interview: interview-preparation/technical-interview.md
+  - Current Affairs: current-affairs/index.md
+  - Mock Tests: online-tests/mock-tests.md
+  - Study Material:
+      - Syllabus:
+        - Overview: syllabus/index.md
+        - UP-TGT Syllabus: syllabus/up-tgt-syllabus.md
+        - UP-PGT Syllabus: syllabus/up-pgt-syllabus.md
+        - Chemistry: syllabus/chemistry.md
+        - Physics: syllabus/physics.md
+        - Biology: syllabus/biology.md
+        - Hindi: syllabus/hindi.md
+        - English: syllabus/english.md
+        - General Studies: syllabus/general-studies.md
+      - Notes:
+        - Overview: notes/index.md
+        - Chemistry: notes/chemistry/chapter-01.md
+        - Physics: notes/physics/chapter-01.md
+        - Biology: notes/biology/chapter-01.md
+        - Hindi: notes/hindi/chapter-01.md
+        - English: notes/english/chapter-01.md
+        - General Studies: notes/gs/chapter-01.md
+      - MCQs:
+        - Overview: mcq/index.md
+        - Chemistry: mcq/chemistry-mcq.md
+        - Physics: mcq/physics-mcq.md
+        - Biology: mcq/biology-mcq.md
+        - Hindi: mcq/hindi-mcq.md
+        - English: mcq/english-mcq.md
+        - General Studies: mcq/gs-mcq.md
+      - Online Tests:
+        - Test Hub: online-tests/index.md
+        - Chemistry: online-tests/chemistry-test-links.md
+        - Physics: online-tests/physics-test-links.md
+        - Biology: online-tests/biology-test-links.md
+      - Previous Papers: resources/previous-papers.md
       - Books: resources/books.md
       - YouTube Channels: resources/youtube-channels.md
       - Websites: resources/websites.md
-      - Previous Papers: resources/previous-papers.md
+      - Job Updates:
+        - Latest Vacancy: job-updates/latest-vacancy.md
+        - Admit Card: job-updates/admit-card.md
+        - Answer Key: job-updates/answer-key.md
+        - Results: job-updates/result.md
 
 extra:
   generator: false

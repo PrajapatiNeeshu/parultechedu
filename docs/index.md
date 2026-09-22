@@ -1,15 +1,16 @@
-# UP TGT PGT Study Portal
+# EduTech Exam Preparation Portal
 
-A focused study workspace for **UP TGT** and **UP PGT** preparation.
+A focused study workspace for competitive exams, interview preparation, and career development.
 
 Use this portal to publish clear, revision-friendly content:
 
-- 📚 Syllabus and exam structure
+- 👩‍🏫 Teacher, police, SSC, and railway exams
+- 💼 Interview preparation for IT, BPO, HR, and technical roles
+- 📚 Syllabus and study material
 - 🧪 Subject notes and chapter summaries
 - ✅ Practice MCQs
-- 📢 Vacancy, admit card, answer key, and result updates
-- 📝 Online tests and mock-test links
-- 🔎 Books, video channels, websites, and previous papers
+- 🗞️ Current affairs and exam updates
+- 📝 Mock tests and practice links
 
 ## Start Here
 
@@ -17,7 +18,7 @@ Use this portal to publish clear, revision-friendly content:
 
 -   :material-clipboard-text-outline: **Know the syllabus**
 
-    Begin with the [syllabus overview](syllabus/index.md) and mark the topics you need to cover.
+    Choose an exam from [Teacher Exams](up-tgt/introduction.md), [Police Exams](police-exams/home-guard.md), [SSC Exams](ssc-exams/cgl.md), or [Railway Exams](railway-exams/ntpc.md).
 
 -   :material-notebook-edit-outline: **Study by subject**
 
@@ -29,7 +30,7 @@ Use this portal to publish clear, revision-friendly content:
 
 -   :material-calendar-check: **Track the exam cycle**
 
-    Check [Job Updates](job-updates/latest-vacancy.md) for official announcements.
+    Read [Current Affairs](current-affairs/index.md) and verify official announcements in [Study Material](job-updates/latest-vacancy.md).
 
 </div>
 
@@ -38,7 +39,7 @@ Use this portal to publish clear, revision-friendly content:
 
 ## Content workflow
 
-1. Choose a subject or exam section.
+1. Choose an exam category or interview track.
 2. Add one focused note or question set.
 3. Link supporting sources at the bottom.
 4. Update the relevant navigation entry in `mkdocs.yml` when adding a new page.
